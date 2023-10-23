@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="formularis.css">
+</head>
+<body>
+<h1>Formulari</h1>
+
+<form action="formular_enviat.html">
+
+    <strong>Dades personals:</strong>
+    <div>
+        <label for="inputNom">Nom i Cognom</label>
+        <input id="inputNom" type="text" required>
+        <br>
+
+        <label for="inputCorreu">Correu Electònic</label>
+        <input id="inputCorreu" type="email" required>
+        <br>
+
+        <label for="inputEdat">Edat</label>
+        <input id="inputEdat" type="number" required>
+    </div>
+    <br>
+
+    <strong>Quin curs estas cursant?</strong>
+    <div>
+        <input id="cursASIX" type="radio" name="curs" checked>
+        <label for="cursASIX">ASIX</label>
+        <br>
+
+        <input id="cursDAW" type="radio" name="curs">
+        <label for="cursDAW">DAW</label>
+        <br>
+
+        <input id="cursDAM" type="radio" name="curs">
+        <label for="cursDAM">DAM</label>
+        <br>
+
+        <label for="cursCursat">Quin curs estas cursant?</label>
+        <select name="cursCursat" id="cursCursat">
+            <option value="1rCurs">1r Curs</option>
+            <option value="2nCurs">2n Curs</option>
+        </select>
+    </div>
+    <br>
+
+    <strong>Marca els temes que vulguis estar al dia!</strong>
+    <div>
+        <input id="interesTema1" type="checkbox">
+        <label for="interesTema1" >Intel·ligència Artificial</label>
+        <br>
+
+        <input id="interesTema2"type="checkbox" checked>
+        <label for="interesTema2" >Computació Quàntica</label>
+        <br>
+
+        <input id="interesTema3" type="checkbox">
+        <label for="interesTema3">Supercomputadors</label>
+        <br>
+
+        <input id="interesTema4" type="checkbox">
+        <label for="interesTema4">Recerca en algorísma</label>
+    </div>
+
+    <div>
+        <p>Hi ha algun tema més que t'interessi? Explica'ns-ho!</p>
+        <textarea required placeholder="Escriu el que t'agradaria saber sobre qualsevol tema aquí..."></textarea>
+    </div>
+    <br>
+
+    <input type="submit">
+
+</form>
+</body>
+</html>
