@@ -1,6 +1,15 @@
 body {
-background-color: orange
+background-color: orange;
+font-family: verdana;
 }
+.textcurt {
+    width: 300px;
+}
+#inputEdat {
+    width: 100px;
+}
+
+
 
 
 
