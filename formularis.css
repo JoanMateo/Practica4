@@ -12,8 +12,26 @@ body {
     line-height: normal;
     background-color: yellow;
 }
-
-
-
+.textcurt:focus{
+    color: red;
+}
+#inputEdat:focus {
+    background-color: blueviolet;
+}
+.bottons:hover {
+    background-color: yellowgreen;
+}
+.curs:focus{
+    background-color: blueviolet;
+}
+.tema:focus{
+    background-color: blueviolet;
+}
+#cursCursat:focus{
+    background-color: rgb(59, 162, 105);
+}
+#textarea:focus{
+    color: red;
+}
 
 
